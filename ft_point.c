@@ -6,19 +6,24 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 17:34:10 by ksalman           #+#    #+#             */
-/*   Updated: 2023/12/05 18:17:12 by ksalman          ###   ########.fr       */
+/*   Updated: 2023/12/06 15:56:55 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
+#include <limits.h>
 
-void	ft_point(void *ptr)
+int	ft_point(void *ptr)
 {
+	int	i;
+
+	i = 0;
 	if (ptr == 0)
-		ft_putstr("(nil)");
+		i = ft_putstr("(nil)");
 	else
 	{
-		ft_putstr("0x");
-		ft_puthex((unsigned long long)ptr, 'x');
+		i = ft_putstr("0x");
+		i = i + ft_puthex((unsigned long)ptr, 'x');
 	}
+	return (i);
 }

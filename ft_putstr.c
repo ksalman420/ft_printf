@@ -6,20 +6,26 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 16:05:38 by ksalman           #+#    #+#             */
-/*   Updated: 2023/12/05 16:11:55 by ksalman          ###   ########.fr       */
+/*   Updated: 2023/12/06 15:57:17 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void	ft_putstr(char *str)
+int	ft_putstr(char *str)
 {
 	int	i;
 
 	i = 0;
+	if (str == NULL)
+	{
+		write(1, "(null)", 6);
+		return (6);
+	}
 	while (str[i] != 0)
 	{
 		ft_putchar(str[i]);
 		i++;
 	}
+	return (i);
 }

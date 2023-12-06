@@ -6,7 +6,7 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 15:54:20 by ksalman           #+#    #+#             */
-/*   Updated: 2023/12/05 18:20:43 by ksalman          ###   ########.fr       */
+/*   Updated: 2023/12/06 15:57:05 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,12 +19,12 @@
 # include <stddef.h>
 # include <stdarg.h>
 
-void	ft_putchar(char c);
-void	ft_putstr(char *str);
-void	ft_putnbr(int n);
-void	ft_puthex(unsigned int n, char type);
-void	ft_unsignedint(unsigned int n);
-void	ft_point(void *ptr);
-int		ft_printf(const char *toprint, ...);
+int	ft_putchar(char c);
+int	ft_putstr(char *str);
+int	ft_putnbr(int n);
+int	ft_puthex(unsigned long n, char type);
+int	ft_unsignedint(unsigned int n);
+int	ft_point(void *ptr);
+int	ft_printf(const char *toprint, ...);
 
 #endif
