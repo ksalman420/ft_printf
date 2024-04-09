@@ -1,7 +1,7 @@
 # Description
 My own version of the C function printf.
-# typedetect symbols
-| Sympol |   effect |
+# typedetect flags
+| flag |   effect |
 | ------- | --------- |
 |   c    | Prints a character |
 |   s    | Prints a string    |
