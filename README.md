@@ -1,7 +1,7 @@
 # Description
 My own version of the C function printf.
 # typedetect flags
-| flag |   effect |
+| Flag |   Effect |
 | ------- | --------- |
 |   c    | Prints a character |
 |   s    | Prints a string    |
