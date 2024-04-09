@@ -6,10 +6,11 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 16:12:22 by ksalman           #+#    #+#             */
-/*   Updated: 2023/12/06 14:16:14 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 09:02:52 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Prints an integer in the decimal system
 #include "ft_printf.h"
 
 void	pnbr(int n)

@@ -6,12 +6,13 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 17:45:58 by ksalman           #+#    #+#             */
-/*   Updated: 2023/12/06 14:39:57 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 09:00:45 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
+//typedetect checks for the flag and calls a function accordingly
 int	typedetect(va_list args, const char type)
 {
 	int	pl;
@@ -34,6 +35,7 @@ int	typedetect(va_list args, const char type)
 	return (pl);
 }
 
+//printf prints the argument and checks for the flag '%' to call typedetect
 int	ft_printf(const char *toprint, ...)
 {
 	int		i;

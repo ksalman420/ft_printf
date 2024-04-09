@@ -6,10 +6,11 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 15:53:56 by ksalman           #+#    #+#             */
-/*   Updated: 2023/12/06 13:28:04 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 09:02:13 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+// Prints a character
 #include "ft_printf.h"
 
 int	ft_putchar(char c)

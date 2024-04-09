@@ -6,10 +6,11 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 16:36:05 by ksalman           #+#    #+#             */
-/*   Updated: 2023/12/06 15:17:21 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 09:03:25 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Prints an unsigned integer in the decimal system
 #include "ft_printf.h"
 
 void	punsignedint(unsigned int n)

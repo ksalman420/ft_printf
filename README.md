@@ -9,3 +9,4 @@ My own version of the C function printf.
 |   p    | Prints a pointer's address |
 |  x/X   | Prints an integer in the hexadecimal system |
 |   u    | Prints an unsigned integer in the decimal system | 
+|   %    | Prints the character % |

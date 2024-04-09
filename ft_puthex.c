@@ -6,10 +6,11 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 17:20:29 by ksalman           #+#    #+#             */
-/*   Updated: 2023/12/06 15:44:07 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 09:04:05 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Prints an integer in the hexadecimal system
 #include "ft_printf.h"
 
 void	phex(unsigned long n, char type)
@@ -53,7 +54,3 @@ int	ft_puthex(unsigned long n, char type)
 	}
 	return (i);
 }
-// int main ()
-// {
-// 	printf("%d", ft_puthex(0,'x'));
-// }

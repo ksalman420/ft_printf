@@ -6,10 +6,11 @@
 /*   By: ksalman <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 16:05:38 by ksalman           #+#    #+#             */
-/*   Updated: 2023/12/06 15:57:17 by ksalman          ###   ########.fr       */
+/*   Updated: 2024/04/09 09:03:09 by ksalman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Prints a string
 #include "ft_printf.h"
 
 int	ft_putstr(char *str)
